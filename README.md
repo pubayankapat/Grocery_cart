@@ -1,1 +1,1 @@
-This is an Ecomerce web development project.Developed with HTML,CSS,PHP.
+This is an Ecomerce web development project developed with HTML,CSS,PHP.
