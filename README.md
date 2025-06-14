@@ -16,6 +16,3 @@ It allows users to add items to their cart, view the cart, and place orders.
 1. Clone the repository:
    ```bash
    git clone
-## For databse contact with me
-mailto:pubayankapat@gmail.com
-   ```
