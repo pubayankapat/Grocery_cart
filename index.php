@@ -55,7 +55,7 @@ $dump_id = session_create_id();
                      <?php
                      if($fetch_products['Status'] !== 0){
                      ?>
-                        <div class=""><span><?= $fetch_products['Status'];?></span></div>
+                        <h2>Available <?= $fetch_products['Status'];?></h2>
                      <?php
                      }else{
                      ?>

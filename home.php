@@ -158,6 +158,17 @@ if(isset($_POST['add_to_cart'])){
    ?>
    <form action="" class="box" method="POST">
       <div class="price">Rs<span><?= $fetch_products['price']; ?></span>/-</div>
+      <?php
+                     if($fetch_products['Status'] !== 0){
+                     ?>
+                        <div class=""><h2>Available <?= $fetch_products['Status'];?></h2></div>
+                     <?php
+                     }else{
+                     ?>
+                     <h2>Out of stock</h2>
+                     <?php
+                     }
+                     ?>
       <a href="view_page.php?pid=<?= $fetch_products['id']; ?>" class="fas fa-eye"></a>
       <img src="uploaded_img/<?= $fetch_products['image']; ?>" onerror="this.src='images/gro.png'">
       <div class="name"><?= $fetch_products['name']; ?></div>
