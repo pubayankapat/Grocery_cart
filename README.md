@@ -17,5 +17,5 @@ It allows users to add items to their cart, view the cart, and place orders.
    ```bash
    git clone
 ## For databse contact with me
-mail.to/pubayanlkapat@gmail.com
+mail.to/pubayankapat@gmail.com
    ```
